@@ -40,6 +40,9 @@ CLI program with Python to add a card to a trello.com board. This program should
     4. Create Label for the card.
         - Use command: $python code.py create-label-card <CARD_ID> <LABEL_NAME> <COLOR_NAME>
         - Valid Values for COLOR_NAME: {yellow, purple, blue, red, green, orange, black, sky, pink, lime}
+        
+    5. Get the Cards from the specified List.
+        - Use Command: $python code.py get-cards-from-list <LIST_ID>
 
     5. Add Comment to the card.
         - Use command: $python code.py add-comment <CARD_ID>
