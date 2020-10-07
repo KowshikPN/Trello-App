@@ -13,13 +13,13 @@ STEPS:
             
     - To generate your API TOKEN, go to URL: https://trello.com/app-key
     
-    - Note: The above key and token are taken from official trell developer page.
+    - Note: The above key and token are taken from official trello developer page.
 
 # Step3: Execute the source code file.
     - $python code.py --help
         - Provides the help page on how to execute the commands.
 
-# Scenario 1: 
+# Scenario: 
 CLI program with Python to add a card to a trello.com board. This program should take user input to add a Trello card with labels and a comment to the specified column of board.
  
  Steps to Perform the above the Scenario: 
@@ -50,4 +50,11 @@ CLI program with Python to add a card to a trello.com board. This program should
     1. Go to URL: https://trello.com/login
     2. Login to the website.
     3. View the output.
+    
+   Future Development Work:
+   
+    1. Delete the Card.
+    2. Update the Card.
+    3. Delete a label from the Card.
+    4. Get the details of the all the boards available in the account.
 
