@@ -3,10 +3,10 @@ This Application creates a card on the Trello Board. Labels and Comments can be 
 
 STEPS:
 
-Step1: Run the following command to install the dependencies.
+# Step1: Run the following command to install the dependencies.
     - $pip install -r requirements.txt
-
-Step2: Provide your Access Key and Access token in the Access.properties file under ACCESS header.
+    
+# Step2: Provide your Access Key and Access token in the Access.properties file under ACCESS header.
     - Ex: [ACCESS]
             KEY = 0471642aefef5fa1fa76530ce1ba4c85
             TOKEN = 9eb76d9a9d02b8dd40c2f3e5df18556c831d4d1fadbe2c45f8310e6c93b5c548
@@ -15,11 +15,11 @@ Step2: Provide your Access Key and Access token in the Access.properties file un
     
     - Note: The above key and token are taken from official trell developer page.
 
-Step3: Execute the source code file.
+# Step3: Execute the source code file.
     - $python code.py --help
         - Provides the help page on how to execute the commands.
 
-Scenario 1: Create new Board, create new list, add the card to list created,
+# Scenario 1: Create new Board, create new list, add the card to list created,
  create a label and add to the card created and finally add a comment to the card created.
 
  Steps to Perform the above the Scenario: 
