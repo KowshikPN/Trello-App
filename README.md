@@ -10,6 +10,7 @@ Step2: Provide your Access Key and Access token in the Access.properties file un
     - Ex: [ACCESS]
             KEY = 0471642aefef5fa1fa76530ce1ba4c85
             TOKEN = 9eb76d9a9d02b8dd40c2f3e5df18556c831d4d1fadbe2c45f8310e6c93b5c548
+            
     - To generate your API TOKEN, go to URL: https://trello.com/app-key
     
     - Note: The above key and token are taken from official trell developer page.
@@ -22,6 +23,7 @@ Scenario 1: Create new Board, create new list, add the card to list created,
  create a label and add to the card created and finally add a comment to the card created.
 
  Steps to Perform the above the Scenario: 
+ 
     1. Create the Board.
         - Use Command: $ python code.py create-board <BOARD_NAME>
     
