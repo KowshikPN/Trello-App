@@ -19,9 +19,9 @@ STEPS:
     - $python code.py --help
         - Provides the help page on how to execute the commands.
 
-# Scenario 1: Create new Board, create new list, add the card to list created,
- create a label and add to the card created and finally add a comment to the card created.
-
+# Scenario 1: 
+CLI program with Python to add a card to a trello.com board. This program should take user input to add a Trello card with labels and a comment to the specified column of board.
+ 
  Steps to Perform the above the Scenario: 
  
     1. Create the Board.
