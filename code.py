@@ -71,7 +71,7 @@ def create_board(board_name):
         else:
             click.echo("Failed to create the board..")
     except:
-        click.echo("Failed to get the API Keys and Tokens..")
+        click.echo("Failed to get the API Keys and Tokens or Failed to create the board..")
 
 main.add_command(create_board)
 
@@ -107,7 +107,7 @@ def get_lists_from_board(board_id):
             click.echo("LIST NAME :")
             click.echo(v)
     except:
-        click.echo("Failed to get the API Keys and Tokens..")        
+        click.echo("Failed to get the API Keys and Tokens or Failed to get lists from board..")        
 
 main.add_command(get_lists_from_board)
 
@@ -133,7 +133,7 @@ def create_list(board_id, list_name):
         else:
             click.echo("List Not Created on the board")
     except:
-        click.echo("Failed to get the API Keys and Tokens..")
+        click.echo("Failed to get the API Keys and Tokens or List Not Created on the board..")
 
 main.add_command(create_list)
 
@@ -163,7 +163,7 @@ def create_card(list_id, card_name):
         else:
             click.echo("Failed to create the card..")
     except:
-        click.echo("Failed to get the API Keys and Tokens..")
+        click.echo("Failed to get the API Keys and Tokens or Failed to create the card..")
 
 main.add_command(create_card)
 
@@ -197,7 +197,7 @@ def get_cards_from_list(list_id):
         else:
             click.echo("Failed to get the Cards..")
     except:
-        click.echo("Failed to get Cards from List provided..")
+        click.echo("Failed to get Cards from List provided or Failed to get the Cards..")
 
 main.add_command(get_cards_from_list)
 
@@ -233,7 +233,7 @@ def create_label_card(card_id, label_name, color_name):
         else:
             click.echo("Failed to create label for the card..")
     except:
-        click.echo("Failed to get the API Keys and Tokens..")
+        click.echo("Failed to get the API Keys and Tokens or Failed to create label for the card..")
 
 main.add_command(create_label_card)
 
@@ -262,7 +262,7 @@ def add_comment(comment, card_id):
             click.echo("Failed to add the comment..")
 
     except:
-        click.echo("Failed to get the API Keys and Tokens..")
+        click.echo("Failed to get the API Keys and Tokens or Failed to add the comment..")
 
     
 
